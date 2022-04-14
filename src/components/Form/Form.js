@@ -36,7 +36,7 @@ const Form = () => {
     setIsLoading(true);
     setMessage("");
     setError("");
-    fetch("http://localhost:4000/sms-send", {
+    fetch("https://radiant-sierra-50986.herokuapp.com/sms-send", {
       method: "POST",
       headers: {
         "content-type": "application/json",
